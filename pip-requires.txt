@@ -1,6 +1,5 @@
 BeautifulSoup
 xlrd
-mimetools
 mock
 nose
 coverage
