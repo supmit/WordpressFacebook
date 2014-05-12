@@ -1,5 +1,4 @@
 BeautifulSoup
-StringIO
 xlrd
 mimetools
 mock
