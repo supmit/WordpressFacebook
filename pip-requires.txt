@@ -1,0 +1,13 @@
+BeautifulSoup
+urllib
+urllib2
+StringIO
+xlrd
+random
+mimetools
+mock
+nose
+coverage
+pylint
+nosexcover
+
