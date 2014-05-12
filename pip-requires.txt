@@ -1,9 +1,6 @@
 BeautifulSoup
-urllib
-urllib2
 StringIO
 xlrd
-random
 mimetools
 mock
 nose
