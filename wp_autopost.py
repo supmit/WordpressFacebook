@@ -78,6 +78,7 @@ class WordPressAutoPostBot(object):
         self.opener = urllib2.build_opener() # This is my normal opener....
         self.no_redirect_opener = urllib2.build_opener(urllib2.HTTPHandler(), urllib2.HTTPSHandler(), NoRedirectHandler()) # this one won't handle redirects.
         self.debug_opener = urllib2.build_opener(urllib2.HTTPHandler(debuglevel=1))
+	print "Hello"
         # Initialize some object properties.
         self.sessionCookies = ""
         self.httpHeaders = { 'User-Agent' : r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36',  'Accept' : 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language' : 'en-US,en;q=0.8', 'Accept-Encoding' : 'gzip,deflate,sdch', 'Connection' : 'keep-alive', 'Host' : '' }
